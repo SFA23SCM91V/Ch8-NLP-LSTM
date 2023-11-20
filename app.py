@@ -7,6 +7,7 @@ from flask import request
 app = Flask(__name__)
 #### Boilerplate code - 1 #####
 
+
 #### Code to load NLP Model and prepare function ####
 from keras.preprocessing import sequence
 from keras.models import load_model
