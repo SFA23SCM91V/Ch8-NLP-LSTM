@@ -16,7 +16,7 @@ import numpy as np
 
 # maximum words in each sentence
 maxlen = 10
-
+  
 # get the word index from imdb dataset
 word_index = imdb.get_word_index()
 
