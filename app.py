@@ -54,7 +54,7 @@ print (my_sentence2, ' : ', predict_sentiment(my_sentence2))
 
 @app.route("/")
 def entry():
-    return "Wellcome!"
+    return "Well-come!"
     
 # build a route or HTTP endpoint
 @app.route('/hello')
